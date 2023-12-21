@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+main {
+    font-size: 100%;
+}
+
+
+.cabecalho {
+    display: flex;
+    direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Open Sans', 'sans-serif';
+    font-size: 20px;
+    margin: 0px 100px 0px 100px;
+    padding: 35px;
+    background-color: #B0C4DE;
+}
+
+
+.cabecalho-menu {
+    display: flex;
+    align-items: baseline;
+    gap: 20px;
+}
+
+.cabecalho-menu-item {
+    text-decoration: none;
+    color: #000
+}
+
+.cabecalho-menu-item:hover {
+    color:#ffffff;
+    text-decoration: underline;
+}
+
+.cabecalho-menu-botao {
+    background-color: aliceblue;
+    height: 36px;
+    width: 80px;
+    border: none;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.25);
+    border-radius: 10px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.cabecalho-menu-botao:hover {
+    background-color: rgba(240,248,255, 0.4);
+    color:#000
+}
+
+.conteudo {
+    font-family: 'Open Sans', 'sans-serif';
+}
+
+.conteudo-principal {
+    display: flex;
+    direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo-principal-imagem {
+    max-width: 380px;
+    margin: 10px 100px 10px 100px;
+}
+
+.conteudo-principal-escrito-supra {
+    font-size: 20px;
+}
+
+.conteudo-principal-escrito-titulo {
+    margin: 10px 100px 10px 100px;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.conteudo-principal-escrito-sub{
+    margin: 10px 100px 10px 100px;
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 100px 10px 100px;
+    gap: 40px;
+}
+
+.projeto-link {
+    color:#000
+}
+
+.projetos-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:18px;
+    gap:30px;
+}
+
+.projeto {
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap:15px; 
+    min-width: 300px;
+    max-width: 300px;
+    text-align: justify; 
+}
+
+.projeto > h3 {
+    text-align: center;
+}
+
+.projeto:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 3px #ccc;
+    background-color: #B0C4DE;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 50px 50px 50px 50px;
+    font-size: 20px;
+    font-family: 'Open Sans', 'sans-serif'
+}
+
+.rodape ul {
+    list-style-type: none;
+}
+
+.rodape a {
+    color: #000;
+}
+
+.contato-form {
+    color:#000;
+    font-size: 15px;
+    font-family: 'Open Sans', 'sans-serif';
+    width: 350px;
+    max-width: 100%;
+    resize: vertical;
+    min-height: 100px
+}
+
+.contato-form button {
+    width: 100px;
+    background-color: #B0C4DE;
+}
